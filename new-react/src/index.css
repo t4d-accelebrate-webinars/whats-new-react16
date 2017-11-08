@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size:100%;
+}
+
+nav {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size:14px;
+  color:blue;
+  display:block;
+  padding: 4px;
+}
+
+nav ul li a.active {
+  color:white;
+  background-color:blue;
+}
+
+ul#home-menu li a {
+  color:blue;
+  text-decoration: none;
+}
+
+ul#home-menu li {
+  padding: 2px;
+}
+
+main > div {
+  margin: 20px;
+}
