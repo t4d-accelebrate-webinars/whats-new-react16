@@ -48,3 +48,27 @@ ul#home-menu li {
 main > div {
   margin: 20px;
 }
+
+.modal-dialog {
+  position: absolute;
+  top:50%;
+  left:50%;
+  height: 300px;
+  width: 500px;
+  margin-top:-150px;
+  margin-left:-250px;
+  border: 2px solid black;
+  background: white;
+  z-index: 1000;
+}
+
+.screen-block {
+  position:fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: gray;
+  opacity: 0.8;
+  z-index: 900;
+}

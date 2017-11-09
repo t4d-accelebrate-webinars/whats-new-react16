@@ -1,0 +1,1 @@
+watch ./copy-components.sh ./components

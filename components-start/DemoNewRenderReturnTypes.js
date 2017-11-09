@@ -1,10 +1,9 @@
 import * as React from 'react';
 
-export class DemoCustomDOMAttributes extends React.Component {
+export class DemoNewRenderReturnTypes extends React.Component {
 
 
   render() {
     return <div>Demo</div>;
   }
-
 }
